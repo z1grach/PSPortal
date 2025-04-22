@@ -1,0 +1,45 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+
+  width: 320px;
+  height: 100%;
+
+  padding: 20px;
+
+  background-color: #1A1A1E;
+
+  color: white;
+
+  border-radius: 12px;
+
+  overflow-y: auto;
+}
+
+.iconWrapper {
+  width: 100%;
+
+  padding: 16px 12px;
+
+  border-radius: 8px;
+  border: solid 1px #313135;
+
+  background: radial-gradient(45.29% 125% at 84.64% 137.5%, rgba(127, 235, 132, 0.2) 0%, rgba(24, 24, 27, 0.2) 100%);
+}
+
+.icon {
+  width: 176px;
+  height: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapperMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

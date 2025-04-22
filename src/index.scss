@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #FFFFFF;
+
+  background-color: #0E0E10;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+button, input[type="submit"], input[type="reset"] {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+
+  border: none;
+  background-color: transparent;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 1;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/fonts/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+.hidden-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

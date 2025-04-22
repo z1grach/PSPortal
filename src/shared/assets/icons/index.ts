@@ -1,0 +1,12 @@
+export {default as PSPortalIcon} from './psportal.svg?react';
+export {default as HomeIcon} from './home.svg?react';
+export {default as TeamIcon} from './teams.svg?react';
+export {default as ConnectionIcon} from './connection.svg?react';
+export {default as ModerationIcon} from './moderation.svg?react';
+export {default as WalletIcon} from './wallet.svg?react';
+export {default as ReviewsIcon} from './reviews.svg?react';
+export {default as QuestionsIcon} from './questions.svg?react';
+export {default as SettingsIcon} from './settings.svg?react';
+export {default as ContactsIcon} from './contacts.svg?react';
+export {default as TelegramIcon} from './telegram.svg?react';
+export {default as ProfileIcon} from './profile.svg?react';

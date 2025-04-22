@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 20px;
+
+  height: 100dvh;
+  width: 100%;
+
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+
+  max-height: calc(100dvh - 40px);
+}
