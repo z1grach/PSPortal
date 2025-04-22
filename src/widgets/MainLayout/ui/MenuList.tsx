@@ -1,6 +1,6 @@
 import React from 'react';
 import {observer} from "mobx-react-lite";
-import styles from "./MenuList.module.scss";
+import styles from "../styles/MenuList.module.scss";
 import {menuItems} from "../constants/menuItems.ts";
 
 export const MenuList = observer(() => {

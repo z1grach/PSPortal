@@ -1,6 +1,6 @@
 import React from 'react';
 import {observer} from "mobx-react-lite";
-import styles from './Sidebar.module.scss';
+import styles from '../styles/Sidebar.module.scss';
 import {PSPortalIcon} from "../../../shared/assets/icons";
 import {MenuList} from "./MenuList.tsx";
 import {AccountInfo} from "./AccountInfo.tsx";

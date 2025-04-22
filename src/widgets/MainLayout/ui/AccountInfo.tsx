@@ -1,6 +1,6 @@
 import React from 'react';
 import {observer} from "mobx-react-lite";
-import styles from './AccountInfo.module.scss';
+import styles from '../styles/AccountInfo.module.scss';
 import {ProfileIcon} from "../../../shared/assets/icons";
 
 export const AccountInfo = observer(() => {

@@ -10,3 +10,4 @@ export {default as SettingsIcon} from './settings.svg?react';
 export {default as ContactsIcon} from './contacts.svg?react';
 export {default as TelegramIcon} from './telegram.svg?react';
 export {default as ProfileIcon} from './profile.svg?react';
+export {default as ArrowIcon} from './arrow.svg?react';
