@@ -5,6 +5,8 @@
   width: 100%;
 
   display: flex;
+
+  overflow: hidden;
 }
 
 .content {
@@ -13,4 +15,6 @@
   max-height: calc(100dvh - 40px);
 
   padding: 20px 40px;
+
+  overflow: hidden;
 }

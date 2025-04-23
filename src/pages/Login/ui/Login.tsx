@@ -2,8 +2,13 @@ import React from 'react';
 import {observer} from "mobx-react-lite";
 import styles from '../styles/Login.module.scss';
 import {InputWithLabel} from "../../../shared/ui/InputWithLabel/InputWithLabel.tsx";
+import {Button} from "../../../shared/ui/Button/Button.tsx";
+import {useNavigate} from "react-router-dom";
+import {PATH} from "../../../shared/constants/routePaths.ts";
 
 export const Login = observer(() => {
+    const navigate = useNavigate();
+
     return (
         <main className={styles.wrapper}>
             <form className={styles.formLogin}>
@@ -15,12 +20,12 @@ export const Login = observer(() => {
                     </div>
                 </div>
                 <div className={styles.buttons}>
-                    <button type={'button'} className={styles.btn + ' ' + styles.enterBtn}>
+                    <Button>
                         Войти
-                    </button>
-                    <button type={'button'} className={styles.btn + ' ' + styles.regBtn}>
+                    </Button>
+                    <Button variant={'secondary'} onClick={() => navigate(PATH.REGISTRATION)}>
                         Зарегистрироваться
-                    </button>
+                    </Button>
                 </div>
             </form>
         </main>

@@ -3,7 +3,7 @@ import {
     HomeIcon,
     ModerationIcon, QuestionsIcon,
     ReviewsIcon, SettingsIcon,
-    TeamIcon, TelegramIcon,
+    TeamIcon, InfoIcon,
     WalletIcon
 } from "../../../shared/assets/icons";
 
@@ -17,5 +17,5 @@ export const menuItems = [
     {title: 'Вопросы', path: '/questions', icon: QuestionsIcon},
     {title: 'Настройки', path: '/settings', icon: SettingsIcon, divider: true},
     {title: 'Контакты', path: '/contacts', icon: ContactsIcon},
-    {title: 'Telegram канал', path: '/telegram', icon: TelegramIcon},
+    {title: 'Telegram канал', path: '/telegram', icon: InfoIcon},
 ];

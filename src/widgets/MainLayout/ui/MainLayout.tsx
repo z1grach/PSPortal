@@ -11,8 +11,10 @@ export const MainLayout = observer(() => {
             <Sidebar/>
             <div className={styles.content}>
                 <Header/>
-                <div>
-                    <Outlet/>
+                <div className={''}>
+                    <React.Suspense fallback={null}>
+                        <Outlet/>
+                    </React.Suspense>
                 </div>
             </div>
         </div>
