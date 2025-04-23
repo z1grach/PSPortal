@@ -1,0 +1,49 @@
+.customTable {
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+.customTableHeader {
+  background-color: #242429;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.customTableCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  background-color: #1A1A1E;
+
+  overflow: hidden;
+
+  word-break: break-word;
+  white-space: pre-wrap;
+
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+
+  min-height: 90px;
+
+  padding: 12px;
+}
+
+.customTableCellHeader {
+  background-color: #242429;
+
+  min-height: 86px;
+}
+
+.customTableRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}

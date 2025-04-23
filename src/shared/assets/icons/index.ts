@@ -14,3 +14,4 @@ export {default as ArrowIcon} from './arrow.svg?react';
 export {default as PlusIcon} from './plus.svg?react';
 export {default as SearchIcon} from './search.svg?react';
 export {default as VerifiedIcon} from './verified.svg?react';
+export {default as RefreshIcon} from './refresh.svg?react';

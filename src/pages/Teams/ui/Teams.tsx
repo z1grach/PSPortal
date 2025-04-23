@@ -3,6 +3,7 @@ import {observer} from "mobx-react-lite";
 import styles from '../styles/Teams.module.scss';
 import {SearchIcon, VerifiedIcon} from "../../../shared/assets/icons";
 import {Button} from "../../../shared/ui/Button/Button.tsx";
+import {TeamsTable} from "./TeamsTable.tsx";
 
 export const Teams = observer(() => {
     return (
@@ -35,5 +36,6 @@ export const Teams = observer(() => {
                 </div>
             </section>
         </main>
+        /*<TeamsTable/>*/
     );
 });

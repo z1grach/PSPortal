@@ -1,0 +1,38 @@
+.wrapper {
+  padding-top: 40px;
+}
+
+.buttonsCell {
+  display: flex;
+  gap: 8px;
+}
+
+.buttonsCellBtnText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F1F1F3;
+
+  padding: 6px 16px;
+  height: 32px;
+
+  border-radius: 60px;
+}
+
+.buttonsCellBtnRefresh {
+  width: 32px;
+  height: 32px;
+
+  padding: unset;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+
+.buttonsCellBtnRefreshIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
