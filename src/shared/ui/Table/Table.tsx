@@ -22,7 +22,7 @@ export const Table = observer(<T extends Record<string, any>>({columns, data}: T
                 {columns.map((col) => (
                     <div
                         key={String(col.key)}
-                        className={styles.customTableCell + ' ' + styles.customTableCellHeader}
+                        className={styles.customTableCell + ' ' + styles.customTableCellHeader + (col.class ? ' ' + col.class : '')}
                         style={{width: col.width}}
                     >
                         {col.title}
@@ -34,7 +34,7 @@ export const Table = observer(<T extends Record<string, any>>({columns, data}: T
                     {columns.map((col) => (
                         <div
                             key={String(col.key)}
-                            className={styles.customTableCell}
+                            className={styles.customTableCell + (col.class ? ' ' + col.class : '')}
                             style={{width: col.width}}
                         >
                             {col.render ? col.render(row[col.key], row) : String(row[col.key])}

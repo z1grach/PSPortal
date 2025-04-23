@@ -4,4 +4,5 @@ export const routePathsName: Record<string, string> = {
     [PATH.LOGIN]: 'Вход в систему',
     [PATH.REGISTRATION]: 'Регистрация',
     [PATH.TEAMS]: 'Мои команды',
+    [PATH.CONNECTION]: 'Заявки трейдеров',
 }

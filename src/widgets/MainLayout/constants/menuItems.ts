@@ -1,16 +1,21 @@
 import {
-    ConnectionIcon, ContactsIcon,
+    ConnectionIcon,
+    ContactsIcon,
     HomeIcon,
-    ModerationIcon, QuestionsIcon,
-    ReviewsIcon, SettingsIcon,
-    TeamIcon, InfoIcon,
+    InfoIcon,
+    ModerationIcon,
+    QuestionsIcon,
+    ReviewsIcon,
+    SettingsIcon,
+    TeamIcon,
     WalletIcon
 } from "../../../shared/assets/icons";
+import {PATH} from "../../../shared/constants/routePaths.ts";
 
 export const menuItems = [
-    {title: 'Главная', path: '/home', icon: HomeIcon},
-    {title: 'Мои команды', path: '/teams', icon: TeamIcon},
-    {title: 'Подключение', path: '/connection', icon: ConnectionIcon},
+    {title: 'Главная', path: PATH.HOME, icon: HomeIcon},
+    {title: 'Мои команды', path: PATH.TEAMS, icon: TeamIcon},
+    {title: 'Подключение', path: PATH.CONNECTION, icon: ConnectionIcon},
     {title: 'Модерация', path: '/moderation', icon: ModerationIcon},
     {title: 'Кошелёк', path: '/wallet', icon: WalletIcon},
     {title: 'Отзывы', path: '/reviews', icon: ReviewsIcon},

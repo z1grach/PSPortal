@@ -3,4 +3,5 @@ export enum PATH {
     LOGIN = '/login',
     REGISTRATION = '/registration',
     TEAMS = '/teams',
+    CONNECTION = '/connection',
 }
