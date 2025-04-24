@@ -15,3 +15,6 @@ export {default as PlusIcon} from './plus.svg?react';
 export {default as SearchIcon} from './search.svg?react';
 export {default as VerifiedIcon} from './verified.svg?react';
 export {default as RefreshIcon} from './refresh.svg?react';
+export {default as ExitIcon} from './exit.svg?react';
+export {default as EditIcon} from './edit.svg?react';
+export {default as CopyIcon} from './copy.svg?react';

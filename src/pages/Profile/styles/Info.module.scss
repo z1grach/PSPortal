@@ -1,0 +1,213 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-shrink: 0;
+
+  width: 500px;
+
+  padding: 20px;
+
+  border-radius: 16px;
+
+  background-color: #1A1A1E;
+}
+
+.mainInfoWrapper {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profileIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 60px;
+  height: 60px;
+
+  background-color: #C9C9CF;
+
+  border-radius: 50%;
+}
+
+.profileIcon {
+  width: 29px;
+  height: 29px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roleEmail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+.email {
+  font-size: 14px;
+  font-weight: 500;
+  color: #C9C9CF;
+}
+
+.roleWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.role {
+  font-size: 16px;
+  font-weight: 500;
+  color: #F1F1F3;
+}
+
+.changeBtn {
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+}
+
+.changeIcon {
+  width: 14px;
+  height: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exitBtn {
+  width: 48px;
+  height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  padding: 9px;
+
+  border-radius: 12px;
+
+  background-color: #313135;
+}
+
+.exitIcon {
+  width: 14px;
+  height: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #F1F1F3;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+
+  padding: 16px;
+
+  border-radius: 12px;
+
+  background-color: #242429;
+}
+
+.contentTitleData {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contentTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #94949E;
+}
+
+.contentData {
+  font-family: 'Bounded', 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 566;
+  color: #FFFFFF;
+}
+
+.promoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  padding: 16px;
+
+  border-radius: 12px;
+
+  background-color: #242429;
+}
+
+.promoTitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #F1F1F3;
+}
+
+.copyWrapper {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  background-color: #313135;
+}
+
+.code {
+  font-family: 'Bounded', 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 566;
+  color: #F1F1F3;
+}
+
+.copyBtn {
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyIcon {
+  width: 16px;
+  height: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

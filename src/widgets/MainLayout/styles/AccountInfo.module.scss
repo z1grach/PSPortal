@@ -1,6 +1,5 @@
 .wrapper {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-shrink: 0;
 
@@ -12,6 +11,11 @@
   overflow: hidden;
 
   width: 100%;
+}
+
+.wrapper.active {
+  background-color: #1CB5571A;
+  border-color: #1CB557;
 }
 
 .info {
@@ -58,4 +62,22 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.exitBtn {
+  width: 24px;
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.exitIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #7A7A85;
 }

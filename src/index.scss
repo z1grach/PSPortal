@@ -61,6 +61,14 @@ input {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Bounded';
+  src: url('../public/fonts/Bounded-Regular.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 .hidden-scroll {
   scrollbar-width: none;
   -ms-overflow-style: none;

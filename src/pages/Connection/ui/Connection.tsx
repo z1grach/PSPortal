@@ -42,9 +42,9 @@ const applicationList = [
 export const Connection = observer(() => {
     return (
         <main className={styles.main}>
-            {/*<Table columns={columns as any} data={data}/>*/}
+            <Table columns={columns as any} data={data}/>
 
-            <div className={styles.applicationWrapper}>
+            {/*<div className={styles.applicationWrapper}>
                 <span className={styles.applicationTitle}>Заявка от trader</span>
                 <div className={styles.applicationContent}>
                     <div className={styles.applicationList}>
@@ -64,7 +64,7 @@ export const Connection = observer(() => {
                         <Button variant={'secondary'}>Перейти в Telegram</Button>
                     </div>
                 </div>
-            </div>
+            </div>*/}
         </main>
     );
 });
