@@ -11,7 +11,7 @@ export const MainLayout = observer(() => {
             <Sidebar/>
             <div className={styles.content}>
                 <Header/>
-                <div className={''}>
+                <div className={styles.mainContent + ' hidden-scroll'}>
                     <React.Suspense fallback={null}>
                         <Outlet/>
                     </React.Suspense>
