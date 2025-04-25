@@ -5,4 +5,5 @@ export enum PATH {
     TEAMS = '/teams',
     CONNECTION = '/connection',
     PROFILE = '/profile',
+    ABOUT = '/about',
 }

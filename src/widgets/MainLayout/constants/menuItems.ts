@@ -22,5 +22,5 @@ export const menuItems = [
     {title: 'Вопросы', path: '/questions', icon: QuestionsIcon},
     {title: 'Настройки', path: '/settings', icon: SettingsIcon, divider: true},
     {title: 'Контакты', path: '/contacts', icon: ContactsIcon},
-    {title: 'Telegram канал', path: '/telegram', icon: InfoIcon},
+    {title: 'Telegram канал', path: PATH.ABOUT, icon: InfoIcon},
 ];
