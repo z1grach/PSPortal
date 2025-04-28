@@ -19,3 +19,5 @@ export {default as ExitIcon} from './exit.svg?react';
 export {default as EditIcon} from './edit.svg?react';
 export {default as CopyIcon} from './copy.svg?react';
 export {default as LightningIcon} from './lightning.svg?react';
+export {default as StarIcon} from './star.svg?react';
+export {default as DeleteIcon} from './delete.svg?react';

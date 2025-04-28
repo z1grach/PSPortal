@@ -1,20 +1,15 @@
 import React from 'react';
 import {observer} from "mobx-react-lite";
 import styles from '../styles/Teams.module.scss';
-import {SearchIcon, VerifiedIcon} from "../../../shared/assets/icons";
+import {VerifiedIcon} from "../../../shared/assets/icons";
 import {Button} from "../../../shared/ui/Button/Button.tsx";
-import {TeamsTable} from "./TeamsTable.tsx";
+import {InputSearch} from "../../../shared/ui/InputSearch/InputSearch.tsx";
 
 export const Teams = observer(() => {
     return (
         <main className={styles.main}>
             <section className={styles.wrapperList}>
-                <label className={styles.searchLabel}>
-                    <input type={'text'} className={styles.searchInput} placeholder={'Платформа'}/>
-                    <div className={styles.searchInputIconWrapper}>
-                        <SearchIcon className={styles.searchInputIcon}/>
-                    </div>
-                </label>
+                <InputSearch placeholder={'Платформа'}/>
                 <div className={styles.itemList}>
                     <div className={styles.itemContent}>
                         <div className={styles.imageWrapper}>

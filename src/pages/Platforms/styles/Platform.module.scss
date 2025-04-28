@@ -1,0 +1,151 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: var(--BW-10);
+
+  border-radius: 16px;
+
+  padding: 16px;
+}
+
+.wrapperImg {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Соотношение 16:9 */
+
+  overflow: hidden;
+
+  border-radius: 12px;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(81, 114, 187);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.titleRatingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.title {
+  font-family: 'Bounded', 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 566;
+  color: #FFFFFF;
+}
+
+.verifiedIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+
+.verifiedIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20px;
+  height: 20px;
+}
+
+.ratingWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F1F1F3;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.starWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+
+.starIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+
+.footer {
+  display: flex;
+  gap: 12px;
+}
+
+.detailedBtn {
+  flex-grow: 1;
+
+  color: #F1F1F3;
+}
+
+.deleteBtn {
+  flex-shrink: 0;
+
+  padding: 9px;
+
+  width: 48px;
+  height: 48px;
+
+  color: #F1F1F3;
+}
+
+.deleteIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+
+.deleteBtnIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #F1F1F3;
+}

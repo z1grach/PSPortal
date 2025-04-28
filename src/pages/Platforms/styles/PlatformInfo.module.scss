@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+
+  background-color: var(--BW-20);
+}
+
+.titleData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7A7A85;
+}
+
+.data {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F1F1F3;
+}
