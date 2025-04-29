@@ -21,10 +21,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .searchInput {
-  width: 100%;
+  flex-grow: 1;
 
   font-size: 16px;
   font-weight: 400;
@@ -49,4 +50,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+@media (max-width: 1440px) {
+  .searchLabel {
+    height: 38px;
+
+    border-radius: 8px;
+  }
+
+  .searchInput {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .searchLabel {
+    height: 36px;
+
+    border-radius: 6px;
+  }
+
+  .searchInput {
+    font-size: 13px;
+  }
 }
