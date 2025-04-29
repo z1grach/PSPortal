@@ -105,3 +105,119 @@
 .bannerTextLink {
   color: #1CB557;
 }
+
+@media (max-width: 1440px) {
+  .main {
+    padding-top: 32px;
+  }
+
+  .wrapper {
+    gap: 32px;
+  }
+
+  .header {
+    height: 144px;
+
+    border-radius: 10px;
+  }
+
+  .infoWrapper {
+    gap: 32px;
+
+    max-width: 600px;
+  }
+
+  .infoTitle {
+    font-size: 24px;
+  }
+
+  .infoTextWrapper {
+    gap: 16px;
+  }
+
+  .infoText {
+    font-size: 14px;
+  }
+
+  .banner {
+    gap: 12px;
+
+    border-radius: 10px;
+
+    padding: 12px;
+  }
+
+  .bannerIconWrapper {
+    width: 32px;
+    height: 32px;
+  }
+
+  .bannerText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .main {
+    padding-top: 24px;
+  }
+
+  .wrapper {
+    gap: 24px;
+  }
+
+  .header {
+    height: 80px;
+
+    border-radius: 10px;
+  }
+
+  .infoWrapper {
+    gap: 24px;
+  }
+
+  .infoTitle {
+    font-size: 18px;
+  }
+
+  .infoTextBannerWrapper {
+    gap: 24px;
+  }
+
+  .infoTextWrapper {
+    gap: 12px;
+  }
+
+  .infoText {
+    font-size: 13px;
+  }
+
+  .banner {
+    gap: 8px;
+
+    border-radius: 8px;
+
+    padding: 8px;
+  }
+
+  .bannerIconWrapper {
+    width: 29px;
+    height: 29px;
+  }
+
+  .bannerText {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    height: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 102px;
+  }
+}
