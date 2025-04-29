@@ -1,7 +1,7 @@
 .menuList {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 4px;
 }
 
 .menuItem {
@@ -47,4 +47,28 @@
   margin: 8px 0;
 
   background-color: #313135;
+}
+
+@media (max-width: 1440px) {
+  .title {
+    font-size: 13px;
+  }
+
+  .divider {
+    margin: 4px 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .menuItem {
+    justify-content: center;
+
+    padding: 6px;
+
+    border-radius: 6px;
+  }
+ 
+  .title {
+    display: none;
+  }
 }

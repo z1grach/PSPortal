@@ -1,8 +1,11 @@
-import * as React from "react";
+import React from "react";
+import {DeviceStore} from "./deviceStore.ts";
 
 export class RootStore {
-    constructor() {
+    deviceStore: DeviceStore;
 
+    constructor() {
+        this.deviceStore = new DeviceStore(this);
     }
 }
 

@@ -39,8 +39,51 @@
   align-items: center;
 }
 
+.iconMobile {
+  width: 25px;
+  height: 28px;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
 .wrapperMenu {
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 81px;
+
+    padding: 16px;
+
+    border-radius: 8px;
+  }
+
+  .wrapperMenu {
+    gap: 8px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .iconMobile {
+    display: flex;
+  }
+
+  .iconWrapper {
+    padding: 12px;
+
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    display: none;
+  }
 }

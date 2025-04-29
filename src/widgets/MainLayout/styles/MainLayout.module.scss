@@ -25,3 +25,27 @@
 .mainContent {
   overflow: auto;
 }
+
+@media (max-width: 1440px) {
+  .wrapper {
+    padding: 16px;
+  }
+
+  .content {
+    max-height: calc(100dvh - 32px);
+
+    padding: 16px 32px 0 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 20px;
+  }
+
+  .content {
+    max-height: 100dvh;
+
+    padding: 0;
+  }
+}

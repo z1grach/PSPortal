@@ -81,3 +81,38 @@
 
   color: #7A7A85;
 }
+
+@media (max-width: 1440px) {
+  .wrapper {
+    padding: 8px;
+
+    border-radius: 8px;
+  }
+
+  .info {
+    gap: 8px;
+  }
+
+  .iconWrapper {
+    width: 32px;
+    height: 32px;
+  }
+
+  .role {
+    font-size: 13px;
+  }
+
+  .email {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .exitIcon {
+    display: none;
+  }
+
+  .name {
+    display: none;
+  }
+}
