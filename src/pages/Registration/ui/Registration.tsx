@@ -4,6 +4,7 @@ import styles from '../styles/Registration.module.scss';
 import {Button} from "../../../shared/ui/Button/Button.tsx";
 import {InputWithLabel} from "../../../shared/ui/InputWithLabel/InputWithLabel.tsx";
 import {InfoIcon} from "../../../shared/assets/icons";
+import {Info} from "./Info/Info.tsx";
 
 export const Registration = observer(() => {
     return (
@@ -41,6 +42,7 @@ export const Registration = observer(() => {
                     </Button>
                 </div>
             </form>
+            {/*<Info/>*/}
         </main>
     );
 });

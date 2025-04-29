@@ -124,3 +124,113 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 1440px) {
+  .formInfo {
+    gap: 40px;
+
+    max-width: 460px;
+  }
+
+  .wrapperInfo {
+    gap: 32px;
+  }
+
+  .roleTitle {
+    font-size: 13px;
+  }
+
+  .roleSelect {
+    border-radius: 8px;
+
+    padding: 12px;
+
+    height: 38px;
+  }
+
+  .roleSelectTitle {
+    font-size: 14px;
+  }
+
+  .imagesWrapper {
+    gap: 16px;
+  }
+
+  .mainImage {
+    width: 72px;
+    height: 72px;
+  }
+
+  .allImagesWrapper {
+    gap: 8px;
+  }
+
+  .allImagesTitle {
+    font-size: 13px;
+  }
+
+  .allImages {
+    gap: 8px;
+  }
+
+  .additionalImage {
+    width: 36px;
+    height: 36px;
+
+    border: 1.8px solid #7A7A85;
+  }
+}
+
+@media (max-width: 1440px) {
+  .formInfo {
+    gap: 32px;
+  }
+
+  .wrapperInfo {
+    gap: 24px;
+  }
+
+  .roleWrapper {
+    gap: 4px;
+  }
+
+  .roleTitle {
+    font-size: 12px;
+  }
+
+  .roleSelect {
+    border-radius: 6px;
+
+    height: 36px;
+  }
+
+  .roleSelectTitle {
+    font-size: 13px;
+  }
+
+  .imagesWrapper {
+    gap: 16px;
+  }
+
+  .mainImage {
+    width: 64px;
+    height: 64px;
+  }
+
+  .allImagesWrapper {
+    gap: 8px;
+  }
+
+  .allImagesTitle {
+    font-size: 12px;
+  }
+
+  .allImages {
+    gap: 6px;
+  }
+
+  .additionalImage {
+    width: 32px;
+    height: 32px;
+  }
+}
