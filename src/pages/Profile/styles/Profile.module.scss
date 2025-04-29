@@ -6,3 +6,37 @@
   display: flex;
   gap: 20px;
 }
+
+@media (max-width: 1440px) {
+  .main {
+    padding-top: 32px;
+  }
+
+  .contentWrapper {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 1324px) {
+  .contentWrapper {
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 460px;
+
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contentWrapper {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 375px) {
+  .main {
+    padding-top: 24px;
+  }
+}

@@ -211,3 +211,145 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 1440px) {
+  .wrapper {
+    gap: 32px;
+
+    width: 100%;
+
+    padding: 16px;
+
+    border-radius: 12px;
+  }
+
+  .mainInfoWrapper {
+    gap: 16px;
+  }
+
+  .profileIconWrapper {
+    width: 48px;
+    height: 48px;
+  }
+
+  .roleEmail {
+    gap: 6px;
+  }
+
+  .email {
+    font-size: 13px;
+  }
+
+  .role {
+    font-size: 14px;
+  }
+
+  .exitBtn {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 8px;
+  }
+
+  .content {
+    gap: 32px;
+
+    padding: 12px;
+
+    border-radius: 8px;
+  }
+
+  .contentTitle {
+    font-size: 13px;
+  }
+
+  .contentData {
+    font-size: 18px;
+  }
+
+  .promoWrapper {
+    gap: 12px;
+
+    padding: 12px;
+
+    border-radius: 8px;
+  }
+
+  .promoTitle {
+    font-size: 14px;
+  }
+
+  .code {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    gap: 24px;
+
+    width: 100%;
+
+    padding: 12px;
+
+    border-radius: 16px;
+  }
+
+  .mainInfoWrapper {
+    gap: 12px;
+  }
+
+  .profileIconWrapper {
+    width: 48px;
+    height: 48px;
+  }
+
+  .roleEmail {
+    gap: 4px;
+  }
+
+  .role {
+    font-size: 13px;
+  }
+
+  .exitBtn {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 8px;
+  }
+
+  .contentWrapper {
+    gap: 8px;
+  }
+
+  .content {
+    gap: 24px;
+
+    padding: 8px;
+
+    border-radius: 8px;
+  }
+
+  .contentTitle {
+    font-size: 12px;
+  }
+
+  .contentData {
+    font-size: 15px;
+  }
+
+  .promoWrapper {
+    padding: 8px;
+
+    border-radius: 8px;
+  }
+
+  .promoTitle {
+    font-size: 13px;
+  }
+
+  .code {
+    font-size: 15px;
+  }
+}
