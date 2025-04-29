@@ -4,10 +4,11 @@ import styles from '../styles/Teams.module.scss';
 import {VerifiedIcon} from "../../../shared/assets/icons";
 import {Button} from "../../../shared/ui/Button/Button.tsx";
 import {InputSearch} from "../../../shared/ui/InputSearch/InputSearch.tsx";
+import {TeamsTable} from "./TeamsTable.tsx";
 
 export const Teams = observer(() => {
     return (
-        <main className={styles.main}>
+        /*<main className={styles.main}>
             <section className={styles.wrapperList}>
                 <InputSearch placeholder={'Платформа'}/>
                 <div className={styles.itemList}>
@@ -30,7 +31,7 @@ export const Teams = observer(() => {
                     </Button>
                 </div>
             </section>
-        </main>
-        /*<TeamsTable/>*/
+        </main>*/
+        <TeamsTable/>
     );
 });

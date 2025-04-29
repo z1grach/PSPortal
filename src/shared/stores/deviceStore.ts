@@ -10,20 +10,14 @@ export class DeviceStore {
     isMobile: boolean = checkIfMobile(window.innerWidth);
 
     constructor(rootStore: RootStore) {
-
-
         this.rootStore = rootStore;
         makeAutoObservable(this);
-
-        console.log('DeviceStore')
 
         window.addEventListener('resize', this.onResize);
     }
 
     private onResize = () => {
         const width = window.innerWidth;
-
-        console.log(width);
 
         this.isMobile = checkIfMobile(width);
     }

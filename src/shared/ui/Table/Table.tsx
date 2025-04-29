@@ -17,31 +17,36 @@ type TableProps<T> = {
 
 export const Table = observer(<T extends Record<string, any>>({columns, data}: TableProps<T>) => {
     return (
-        <div className={styles.customTable}>
-            <div className={styles.customTableHeader}>
-                {columns.map((col) => (
-                    <div
-                        key={String(col.key)}
-                        className={styles.customTableCell + ' ' + styles.customTableCellHeader + (col.class ? ' ' + col.class : '')}
-                        style={{width: col.width}}
-                    >
-                        {col.title}
-                    </div>
-                ))}
-            </div>
-            {data.map((row, rowIndex) => (
-                <div key={rowIndex} className={styles.customTableRow}>
+        <div className={styles.wrapper}>
+
+            <div className={styles.customTable}>
+                <div className={styles.customTableHeader + ' ' + styles.customTableRow}>
                     {columns.map((col) => (
                         <div
                             key={String(col.key)}
-                            className={styles.customTableCell + (col.class ? ' ' + col.class : '')}
+                            className={styles.customTableCell + ' ' + styles.customTableCellHeader + (col.class ? ' ' + col.class : '')}
                             style={{width: col.width}}
                         >
-                            {col.render ? col.render(row[col.key], row) : String(row[col.key])}
+                            {col.title}
                         </div>
                     ))}
                 </div>
-            ))}
+                <div className={styles.customTableBody}>
+                    {data.map((row, rowIndex) => (
+                        <div key={rowIndex} className={styles.customTableRow}>
+                            {columns.map((col) => (
+                                <div
+                                    key={String(col.key)}
+                                    className={styles.customTableCell + (col.class ? ' ' + col.class : '')}
+                                    style={{width: col.width}}
+                                >
+                                    {col.render ? col.render(row[col.key], row) : String(row[col.key])}
+                                </div>
+                            ))}
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 });
