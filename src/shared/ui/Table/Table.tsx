@@ -3,9 +3,8 @@ import {observer} from "mobx-react-lite";
 import styles from './Table.module.scss';
 
 type Column<T> = {
-    key: keyof T;
+    key: keyof T | string;
     title: string;
-    width?: string | number;
     class?: string;
     render?: (value: T[keyof T], row: T) => React.ReactNode;
 };
@@ -18,14 +17,12 @@ type TableProps<T> = {
 export const Table = observer(<T extends Record<string, any>>({columns, data}: TableProps<T>) => {
     return (
         <div className={styles.wrapper}>
-
             <div className={styles.customTable}>
                 <div className={styles.customTableHeader + ' ' + styles.customTableRow}>
                     {columns.map((col) => (
                         <div
                             key={String(col.key)}
                             className={styles.customTableCell + ' ' + styles.customTableCellHeader + (col.class ? ' ' + col.class : '')}
-                            style={{width: col.width}}
                         >
                             {col.title}
                         </div>
@@ -38,7 +35,6 @@ export const Table = observer(<T extends Record<string, any>>({columns, data}: T
                                 <div
                                     key={String(col.key)}
                                     className={styles.customTableCell + (col.class ? ' ' + col.class : '')}
-                                    style={{width: col.width}}
                                 >
                                     {col.render ? col.render(row[col.key], row) : String(row[col.key])}
                                 </div>

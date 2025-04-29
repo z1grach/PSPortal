@@ -2,6 +2,10 @@
   padding-top: 40px;
 }
 
+.buttonsCellWrapper {
+  flex: 1 0 185px !important;
+}
+
 .buttonsCell {
   display: flex;
   gap: 8px;
@@ -35,4 +39,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    padding-top: 32px;
+  }
+
+  .buttonsCell {
+    gap: 4px;
+  }
+
+  .buttonsCellBtnText {
+    font-size: 13px;
+
+    padding: 6px 12px;
+    height: 28px;
+  }
+
+  .buttonsCellBtnRefresh {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    padding-top: 24px;
+  }
 }

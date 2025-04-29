@@ -12,12 +12,17 @@ const columns = [
     {key: 'referrer_commission', title: 'Комиссия реферера',},
     {key: 'amount_payment', title: 'Сумма выплаты',},
     {key: 'status', title: 'Статус'},
-    {key: 'buttons', title: '', render: () => (<div className={styles.buttonsCell}>
+    {
+        key: 'buttons',
+        title: '',
+        class: styles.buttonsCellWrapper,
+        render: () => (<div className={styles.buttonsCell}>
             <Button variant={'secondary'} className={styles.buttonsCellBtnRefresh}>
                 <RefreshIcon className={styles.buttonsCellBtnRefreshIcon}/>
             </Button>
             <Button variant={'secondary'} className={styles.buttonsCellBtnText}>Выплатить</Button>
-        </div>)}
+        </div>)
+    }
 ];
 
 const data = [
@@ -27,14 +32,14 @@ const data = [
         referrer: 'batman',
         referrer_commission: '1.0',
         amount_payment: '1000₽',
-        status: 'Не выплачено'
+        status: 'Не выплачено',
     },
 ];
 
 export const TeamsTable = observer(() => {
     return (
         <section className={styles.wrapper}>
-            <Table columns={columns as any} data={data}/>
+            <Table columns={columns} data={data}/>
         </section>
     );
 });

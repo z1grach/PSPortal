@@ -3,10 +3,6 @@
   overflow-x: auto;
 }
 
-.customTable {
-  border-radius: 20px;
-}
-
 .customTableHeader {
   font-size: 16px;
   font-weight: 500;
@@ -65,4 +61,22 @@
 
 .customTableRow {
   display: flex;
+}
+
+@media (max-width: 1440px) {
+  .customTableHeader {
+    font-size: 14px;
+  }
+
+  .customTableCell {
+    font-size: 14px;
+
+    min-height: 68px;
+
+    padding: 8px 12px;
+  }
+
+  .customTableCellHeader {
+    min-height: 68px;
+  }
 }
