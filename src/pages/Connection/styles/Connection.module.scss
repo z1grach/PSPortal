@@ -93,3 +93,89 @@
   font-weight: 500;
   color: #F1F1F3;
 }
+
+@media (max-width: 1440px) {
+  .main {
+    padding-top: 32px;
+  }
+
+  .applicationWrapper {
+    gap: 16px;
+  }
+
+  .applicationTitle {
+    font-size: 20px;
+  }
+
+  .applicationContent {
+    max-width: 500px;
+
+    border-radius: 12px;
+
+    padding: 16px;
+
+    gap: 32px;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+
+  .applicationList {
+    gap: 8px;
+
+    padding: 12px;
+
+    border-radius: 8px;
+  }
+
+  .applicationItemTitle {
+    font-size: 13px;
+  }
+
+  .applicationItemCount {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .main {
+    padding-top: 24px;
+  }
+
+  .applicationWrapper {
+    gap: 12px;
+  }
+
+  .applicationTitle {
+    font-size: 16px;
+  }
+
+  .applicationContent {
+    border-radius: 8px;
+
+    padding: 12px;
+
+    gap: 24px;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+
+  .applicationList {
+    gap: 8px;
+
+    padding: 8px;
+
+    border-radius: 8px;
+  }
+
+  .applicationItemTitle {
+    font-size: 12px;
+  }
+
+  .applicationItemCount {
+    font-size: 12px;
+  }
+}
