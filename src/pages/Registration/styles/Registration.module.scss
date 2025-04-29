@@ -87,3 +87,81 @@
   font-weight: 400;
   color: #F1F1F3;
 }
+
+@media (max-width: 1440px) {
+  .wrapper {
+    padding-top: 80px;
+  }
+
+  .formReg {
+    gap: 40px;
+
+    max-width: 460px;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+
+  .labels {
+    gap: 32px;
+  }
+
+  .passwords {
+    gap: 20px;
+  }
+
+  .mainPassword {
+    gap: 8px;
+  }
+
+  .info {
+    font-size: 11px;
+  }
+
+  .promoWrapper {
+    gap: 16px;
+  }
+
+  .promoTitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    padding-top: 60px;
+  }
+
+  .formReg {
+    gap: 32px;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+
+  .labels {
+    gap: 24px;
+  }
+
+  .passwords {
+    gap: 16px;
+  }
+
+  .mainPassword {
+    gap: 4px;
+  }
+
+  .info {
+    font-size: 10px;
+  }
+
+  .promoWrapper {
+    gap: 16px;
+  }
+
+  .promoTitle {
+    font-size: 13px;
+  }
+}
