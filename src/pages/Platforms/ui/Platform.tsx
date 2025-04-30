@@ -25,10 +25,10 @@ export const Platform = observer(() => {
                         <span className={styles.rating}>5.0</span>
                         <div className={styles.stars}>
                             <div className={styles.starWrapper}><StarIcon className={styles.starIcon}/></div>
-                            <div className={styles.starWrapper}><StarIcon className={styles.starIcon}/></div>
-                            <div className={styles.starWrapper}><StarIcon className={styles.starIcon}/></div>
-                            <div className={styles.starWrapper}><StarIcon className={styles.starIcon}/></div>
-                            <div className={styles.starWrapper}><StarIcon className={styles.starIcon}/></div>
+                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon className={styles.starIcon}/></div>
+                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon className={styles.starIcon}/></div>
+                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon className={styles.starIcon}/></div>
+                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon className={styles.starIcon}/></div>
                         </div>
                     </div>
                 </div>

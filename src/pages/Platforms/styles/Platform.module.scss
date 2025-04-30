@@ -149,3 +149,93 @@
 
   color: #F1F1F3;
 }
+
+@media (max-width: 1500px) {
+  .starMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .wrapper {
+    gap: 16px;
+
+    border-radius: 12px;
+
+    padding: 12px;
+  }
+
+  .wrapperImg {
+    border-radius: 10px;
+  }
+
+  .header {
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .ratingWrapper {
+    gap: 4px;
+  }
+
+  .rating {
+    font-size: 13px;
+  }
+
+  .footer {
+    gap: 8px;
+  }
+
+  .deleteBtn {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    gap: 12px;
+
+    border-radius: 10px;
+
+    padding: 8px;
+  }
+
+  .wrapperImg {
+    border-radius: 8px;
+  }
+
+  .header {
+    gap: 8px;
+  }
+
+  .titleRatingWrapper {
+    gap: 4px;
+  }
+
+  .title {
+    font-size: 15px;
+  }
+
+  .ratingWrapper {
+    gap: 4px;
+  }
+
+  .rating {
+    font-size: 12px;
+  }
+
+  .footer {
+    gap: 6px;
+  }
+
+  .deleteBtn {
+    padding: 6px;
+
+    width: 40px;
+    height: 40px;
+  }
+}
