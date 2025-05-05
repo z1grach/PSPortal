@@ -12,7 +12,7 @@ export const MenuList = observer(() => {
                     {item.divider &&
                         <div className={styles.divider}/>
                     }
-                    <NavLink to={item.path} end
+                    <NavLink to={item.path}
                              className={({isActive}) =>
                                  (isActive ? styles.active + ' ' : '') + styles.menuItem
                              }

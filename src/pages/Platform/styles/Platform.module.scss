@@ -1,0 +1,161 @@
+.main {
+  padding-top: 40px;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+}
+
+.platform {
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex-shrink: 0;
+}
+
+.wrapperImg {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Соотношение 16:9 */
+
+  overflow: hidden;
+
+  border-radius: 16px;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(81, 114, 187);
+}
+
+.titleRatingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.title {
+  font-family: 'Bounded', 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 466;
+  color: #F1F1F3;
+}
+
+.ratingWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F1F1F3;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+}
+
+.starWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+
+.starIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+
+.flatformDataWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.flatformData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.flatformDataTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7A7A85;
+}
+
+.flatformDataInfo {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F1F1F3;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #313135;
+}
+
+.flatformDataInfoIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20px;
+  height: 20px;
+}
+
+.flatformDataInfoIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 14px;
+  height: 14px;
+}
+
+.platformFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.unwrapBtn {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7A7A85;
+
+  cursor: pointer;
+}
+
+.platformDescription {
+  font-size: 16px;
+  font-weight: 400;
+  color: #F1F1F3;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}

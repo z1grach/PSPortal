@@ -1,0 +1,59 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  margin-top: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-family: 'Bounded', 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 566;
+  color: #F1F1F3;
+}
+
+.dataWrapper {
+  padding: 16px;
+
+  border-radius: 12px;
+
+  background-color: #242429;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+.itemWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.itemIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+
+  background-color: #22C3601A;
+}
+
+.itemTitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #F1F1F3;
+}

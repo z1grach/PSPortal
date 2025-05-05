@@ -13,7 +13,7 @@ import {
 import {PATH} from "../../../shared/constants/routePaths.ts";
 
 export const menuItems = [
-    {title: 'Главная', path: PATH.HOME, icon: HomeIcon},
+    {title: 'Главная', path: PATH.PLATFORMS, icon: HomeIcon},
     {title: 'Мои команды', path: PATH.TEAMS, icon: TeamIcon},
     {title: 'Подключение', path: PATH.CONNECTION, icon: ConnectionIcon},
     {title: 'Модерация', path: '/moderation', icon: ModerationIcon},

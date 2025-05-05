@@ -1,0 +1,99 @@
+.mainWrapper {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.dataWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title {
+  font-family: 'Bounded', 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 466;
+  color: #F1F1F3;
+}
+
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.itemText {
+  font-size: 16px;
+  font-weight: 400;
+  color: #F1F1F3;
+
+  padding-left: 44px;
+}
+
+.itemHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.iconNik {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nik {
+  font-size: 18px;
+  font-weight: 600;
+  color: #7A7A85;
+}
+
+.iconWrapper {
+  flex-shrink: 0;
+
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50px;
+  border: 2px solid #7A7A85;
+
+  background-color: #fff;
+}
+
+.dateRatingWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7A7A85;
+}
+
+.stars {
+  display: flex;
+}
+
+.starWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}
+
+.starIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+}

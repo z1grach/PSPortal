@@ -7,4 +7,5 @@ export enum PATH {
     PROFILE = '/profile',
     ABOUT = '/about',
     PLATFORMS = '/platforms',
+    PLATFORM = '/platforms/:id',
 }

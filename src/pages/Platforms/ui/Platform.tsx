@@ -4,8 +4,12 @@ import {observer} from "mobx-react-lite";
 import {DeleteIcon, StarIcon, VerifiedIcon} from "../../../shared/assets/icons";
 import {PlatformInfo} from "./PlatformInfo.tsx";
 import {Button} from "../../../shared/ui/Button/Button.tsx";
+import {useNavigate} from "react-router-dom";
+import {PATH} from "../../../shared/constants/routePaths.ts";
 
 export const Platform = observer(() => {
+    const navigate = useNavigate();
+
     return (
         <div className={styles.wrapper}>
             <header className={styles.header}>
@@ -25,17 +29,22 @@ export const Platform = observer(() => {
                         <span className={styles.rating}>5.0</span>
                         <div className={styles.stars}>
                             <div className={styles.starWrapper}><StarIcon className={styles.starIcon}/></div>
-                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon className={styles.starIcon}/></div>
-                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon className={styles.starIcon}/></div>
-                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon className={styles.starIcon}/></div>
-                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon className={styles.starIcon}/></div>
+                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon
+                                className={styles.starIcon}/></div>
+                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon
+                                className={styles.starIcon}/></div>
+                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon
+                                className={styles.starIcon}/></div>
+                            <div className={styles.starWrapper + ' ' + styles.starMobile}><StarIcon
+                                className={styles.starIcon}/></div>
                         </div>
                     </div>
                 </div>
             </header>
-            <PlatformInfo />
+            <PlatformInfo/>
             <footer className={styles.footer}>
-                <Button variant={'secondary'} className={styles.detailedBtn}>Подробнее</Button>
+                <Button variant={'secondary'} className={styles.detailedBtn}
+                        onClick={() => navigate(`${PATH.PLATFORMS}/1`)}>Подробнее</Button>
                 <Button variant={'secondary'} className={styles.deleteBtn}>
                     <div className={styles.deleteIconWrapper}>
                         <DeleteIcon className={styles.deleteBtnIcon}/>
