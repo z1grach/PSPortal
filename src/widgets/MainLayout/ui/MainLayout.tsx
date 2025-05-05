@@ -4,6 +4,7 @@ import styles from '../styles/MainLayout.module.scss';
 import {Sidebar} from "./Sidebar.tsx";
 import {Outlet} from "react-router-dom";
 import {Header} from "./Header.tsx";
+import {SidebarMobile} from "./SidebarMobile.tsx";
 
 export const MainLayout = observer(() => {
     return (
@@ -11,6 +12,7 @@ export const MainLayout = observer(() => {
             <Sidebar/>
             <div className={styles.content}>
                 <Header/>
+                <SidebarMobile/>
                 <div className={styles.mainContent + ' hidden-scroll'}>
                     <React.Suspense fallback={null}>
                         <Outlet/>

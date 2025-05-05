@@ -67,8 +67,18 @@
 
     border-radius: 6px;
   }
- 
+
   .title {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    display: unset;
+  }
+
+  .menuItem {
+    justify-content: unset;
   }
 }

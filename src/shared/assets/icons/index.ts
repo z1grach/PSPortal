@@ -23,3 +23,4 @@ export {default as StarIcon} from './star.svg?react';
 export {default as DeleteIcon} from './delete.svg?react';
 export {default as PSPortalMiniIcon} from './psportal_mini.svg?react';
 export {default as OkayIcon} from './okay.svg?react';
+export {default as MenuIcon} from './menu.svg?react';

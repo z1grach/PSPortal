@@ -116,3 +116,13 @@
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .exitIcon {
+    display: flex;
+  }
+
+  .name {
+    display: flex;
+  }
+}

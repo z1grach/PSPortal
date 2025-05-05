@@ -19,35 +19,6 @@
   overflow-y: auto;
 }
 
-.iconWrapper {
-  width: 100%;
-
-  padding: 16px 12px;
-
-  border-radius: 8px;
-  border: solid 1px #313135;
-
-  background: radial-gradient(45.29% 125% at 84.64% 137.5%, rgba(127, 235, 132, 0.2) 0%, rgba(24, 24, 27, 0.2) 100%);
-}
-
-.icon {
-  width: 176px;
-  height: 28px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.iconMobile {
-  width: 25px;
-  height: 28px;
-
-  display: none;
-  justify-content: center;
-  align-items: center;
-}
-
 .wrapperMenu {
   display: flex;
   flex-direction: column;
@@ -65,20 +36,6 @@
 
   .wrapperMenu {
     gap: 8px;
-  }
-
-  .icon {
-    display: none;
-  }
-
-  .iconMobile {
-    display: flex;
-  }
-
-  .iconWrapper {
-    padding: 12px;
-
-    border-radius: 6px;
   }
 }
 
