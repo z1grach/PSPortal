@@ -3,6 +3,7 @@ export enum PATH {
     LOGIN = '/login',
     REGISTRATION = '/registration',
     TEAMS = '/teams',
+    TEAM = '/teams/:id',
     CONNECTION = '/connection',
     PROFILE = '/profile',
     ABOUT = '/about',

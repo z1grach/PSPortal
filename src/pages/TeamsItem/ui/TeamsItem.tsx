@@ -1,6 +1,6 @@
 import React from 'react';
 import {observer} from "mobx-react-lite";
-import styles from '../styles/TeamsTable.module.scss';
+import styles from '../styles/TeamsItem.module.scss';
 import {Table} from "../../../shared/ui/Table/Table.tsx";
 import {Button} from "../../../shared/ui/Button/Button.tsx";
 import {RefreshIcon} from "../../../shared/assets/icons";
@@ -36,7 +36,7 @@ const data = [
     },
 ];
 
-export const TeamsTable = observer(() => {
+export const TeamsItem = observer(() => {
     return (
         <section className={styles.wrapper}>
             <Table columns={columns} data={data}/>

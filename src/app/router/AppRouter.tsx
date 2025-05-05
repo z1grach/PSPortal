@@ -12,6 +12,7 @@ const Profile = React.lazy(() => import('../../pages/Profile'));
 const About = React.lazy(() => import('../../pages/About'));
 const Platforms = React.lazy(() => import('../../pages/Platforms'));
 const Platform = React.lazy(() => import('../../pages/Platform'));
+const TeamsItem = React.lazy(() => import('../../pages/TeamsItem'));
 
 export const AppRouter = observer(() => {
     return (
@@ -20,6 +21,7 @@ export const AppRouter = observer(() => {
                 <Route path={PATH.LOGIN} element={<Login/>}/>
                 <Route path={PATH.REGISTRATION} element={<Registration/>}/>
                 <Route path={PATH.TEAMS} element={<Teams/>}/>
+                <Route path={PATH.TEAM} element={<TeamsItem/>}/>
                 <Route path={PATH.CONNECTION} element={<Connection/>}/>
                 <Route path={PATH.PROFILE} element={<Profile/>}/>
                 <Route path={PATH.ABOUT} element={<About/>}/>
