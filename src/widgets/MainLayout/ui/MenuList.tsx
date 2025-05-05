@@ -14,7 +14,7 @@ export const MenuList = observer(() => {
                     }
                     <NavLink to={item.path}
                              className={({isActive}) =>
-                                 (isActive ? styles.active + ' ' : '') + styles.menuItem
+                                 (isActive && item.title !== 'Кошелёк' && item.title !== 'Отзывы' && item.title !== 'Вопросы' ? styles.active + ' ' : '') + styles.menuItem
                              }
                     >
                         <div className={styles.itemIcon}>

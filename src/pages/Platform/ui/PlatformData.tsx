@@ -5,11 +5,20 @@ import {PlatformDetail} from "./PlatformDetail.tsx";
 import {FeedbackQuestions} from "./FeedbackQuestions.tsx";
 import {default as FeedbackIcon} from '../mock/feedback.svg?react';
 import {default as QuestionsIcon} from '../mock/questions.svg?react';
+import {useSearchParams} from "react-router-dom";
 
 const listTab = ['Подробнее', 'Отзывы', 'Вопросы'];
 
 export const PlatformData = observer(() => {
+    const [searchParams] = useSearchParams();
+    const type = searchParams.get('type');
     const [activeTab, setActiveTab] = React.useState(listTab[0]);
+
+    React.useEffect(() => {
+        if (type === 'detail') setActiveTab(listTab[0]);
+        if (type === 'feedbacks') setActiveTab(listTab[1]);
+        if (type === 'questions') setActiveTab(listTab[2]);
+    }, [type]);
 
     return (
         <section className={styles.wrapper}>
